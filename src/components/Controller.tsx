@@ -30,7 +30,7 @@ const Controller = () => {
 
         // send form data to api endpoint
         await axios
-          .post("http://localhost:8000/post-audio", formData, {
+          .post("http://159.223.204.146/post-audio", formData, {
             headers: {
               "Content-Type": "audio/mpeg",
             },
